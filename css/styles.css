@@ -1,0 +1,139 @@
+.body-login{
+    background-color: #9D2449;
+}
+.card-login{
+    background-color: #fff;
+}
+.bg{
+    background-image: url('../img/Correos_de_México.png');
+    background-position: center center;
+    background-size: 12rem;
+    background-repeat: no-repeat;
+}   
+@media (min-width: 991px) {
+    .bg{
+        background-image: url('../img/Correos_de_México.png');
+        background-position: center center;
+        background-size: 40rem;
+        background-repeat: no-repeat;
+    }
+} 
+.mt-5{
+    margin-top: 7rem !important;
+}
+.brand{
+    width: 10rem;
+}
+.hyperlink{
+    text-decoration: none; 
+    color: black;
+}
+.hyperlink-white{
+    text-decoration: none; 
+    color: white;
+}
+.hyperlink-white:hover{
+    color: #DDC9A3;
+}
+.carousel-item{
+    height: 32rem;
+    background: #777;
+    color: white;
+    position: relative;
+}
+.carousel-container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+.overlay-image{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+}
+.main-options-container{
+    margin-top: 60px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.featurette{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.featurette-divider {
+    margin: 3rem 0; 
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.featurette-heading {
+    font-weight: 400;
+    font-size: 1.7rem;
+    line-height: 1;
+    letter-spacing: -.05rem;
+    margin-left: 8rem;
+    margin-right: 5rem;
+    margin-bottom: 2rem;
+}
+.featurette-subheading{
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-left: 10rem;
+    margin-right: 5rem;
+    margin-top: -1.2rem;
+}
+.featurette-content{
+    font-weight: 300;
+    font-size: 1.2rem;
+    font-size: 1.2rem;
+    margin-left: 10rem;
+    margin-right: 5rem;
+}
+#footer{
+    background-color: #10312B;
+}
+.image-footer{
+    width: 80%;
+}
+.footer-icon-list{
+    margin-left: -1rem;
+}
+.icon-footer{
+    font-size: 2rem;size: 50rem;
+    padding-right: 1rem;
+}
+/*
+.navbar{
+    width: 275px;
+    height: 100vh;
+    position: fixed;
+    margin-left: -300px;
+    background-color:#235B4E;
+    transition: 0.4s;
+}
+.nav-link{
+    font-size: 1.25rem;
+}
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover{
+    background-color:#691C32;
+}
+.main-container{
+    transition: 0.4s;
+}
+.active-nav{
+    margin-left: 0;
+}
+.active-cont{
+    margin-left: 250px;
+}
+#menu-btn{
+    background-color: #98989A;
+}*/

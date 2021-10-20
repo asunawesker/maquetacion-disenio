@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Correos de México</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="body-login">
+    <div class="container card-login mt-5 rounded-3">
+        <div class="row d-flex align-content-lg-stretch">
+            <!--Imagen-->
+            <a href="index.html" class="col bg d-none d-lg-block">
+            </a>           
+            <!--Login-->
+            <div class="col pt-5 p-5">
+                <h2 class="fw-bold py-4">Iniciar sesión</h2>
+        
+                <form action="#">
+                    <div class="mb-4">
+                        <label for="email" class="form-label">Usuario</label>
+                        <input type="email" class="form-control" name="email" placeholder="Ingresa tu nombre de usuario">
+                    </div>
+                    <div class="mb-4">
+                        <label for="password" class="form-label">CURP</label>
+                        <input type="password" class="form-control" name="password" placeholder="Ingresa tu CURP">
+                    </div>
+                    <div class="mb-4">
+                        <input type="checkbox" name="connected" class="form-check-input">
+                        <label for="connected" class="form-check-label">Recordarme</label>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+                    </div>
+                    <div class="my-4">
+                        <span>¿No tienes una cuenta? <a href="#">Regístrate</a></span>
+                    </div>
+                    <div class="my-4">
+                        <a href="index.html" class="hyperlink"><i class="bi bi-arrow-left"> Volver a la página de inicio</i></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>    
+    <script src="bootstrap-5.0.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
